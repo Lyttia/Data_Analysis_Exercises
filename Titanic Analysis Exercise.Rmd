@@ -6,9 +6,11 @@ output: html_document
 ---
 # Titanic Analysis Exercise
 
+*#0 - Install and load packages and data. Data file can be saved to local machine from this repo [here](https://github.com/Lyttia/Data_Analysis_Exercises/blob/master/titanic_train.rda). Replace data file address in the `load()` function to local address.*
+
 ```{r}
-#install.packages("ggplot2")
-#install.packages("dplyr")
+install.packages("ggplot2")
+install.packages("dplyr")
 library("dplyr")
 library("ggplot2")
 load("C:/Users/lytti/Desktop/Datasets/titanic_train.rda")
