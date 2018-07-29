@@ -43,7 +43,7 @@ ggplot(titanic, aes(x = Pclass, fill = Sex)) +
 posn.jd <- position_jitterdodge(0.5, 0, 0.6)
 ```
 
-*#5 - Plot 3: Include `Age`; on y, use the position object from above, `geom_point`, 'Sex' mapped to `color`*
+*#5 - Plot 3: Include `Age` on `y`, use the position object from above, `geom_point`, `Sex` mapped to `color`*
 
 ```{r}
 ggplot(titanic, aes(x = Pclass, y = Age, color = Sex)) +
